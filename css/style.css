@@ -55,12 +55,13 @@ nav a:hover {
 /* Slideshow code source: https://www.w3.org/Style/Examples/007/slideshow.en.html */
 main ul {
     list-style: none;
-    /* height: 10em; */
+    height: 30em;
     width: 75vh;
-    border: 0.05em solid white;
+    /* border: 0.05em solid white; */
     position: relative;
     margin: auto;
     padding: 0;
+    overflow: hidden;
 }
 
 main ul > li {

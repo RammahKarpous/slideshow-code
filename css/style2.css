@@ -1,0 +1,80 @@
+body {
+    color: white;
+    overflow: hidden;
+}
+
+.play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 6em;
+    margin: 0;
+    position: absolute;
+}
+
+.fireworks {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.birthday-section {
+    position: relative;
+    height: 20em;
+    width: 80vw;
+    margin: auto;
+}
+
+.van {
+    left: 3em;
+    top: 40px;
+}
+
+.harte {
+    right: 3em;
+    top: 40px;
+}
+
+.gefeliciteerd {
+    font-size: 8em;
+    bottom: .3em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.met-je {
+    position: absolute;
+    font-size: 3em;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1.4em;
+}
+
+.vijf-en-twintig {
+    position: absolute;
+    bottom: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20em;
+}
+
+.verjaardag {
+    position: absolute;
+    bottom: -3.4em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12em;
+}
